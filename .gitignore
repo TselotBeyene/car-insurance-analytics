@@ -1,0 +1,16 @@
+# env files
+week2/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data folder
+Data/
+
+# Ignore images folder
+images/
+.venv/
