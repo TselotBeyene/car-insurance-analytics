@@ -1,10 +1,6 @@
 # env files
 week2/
 
-# Ignore Python cache
-__pycache__/
-*.pyc
-
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
@@ -14,3 +10,36 @@ Data/
 # Ignore images folder
 images/
 .venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Data files
+*.csv
+*.json
+*.xlsx
+# all .txt files except README.txt, requirements.txt
+*.txt !README.txt !requirements.txt
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
